@@ -90,9 +90,13 @@ public:
         assert(hashGenesisBlock == uint256("0x000001faef25dec4fbcf906e6242621df2c183bf232f263d0ba5b101911e4563"));
         assert(genesis.hashMerkleRoot == uint256("0x12630d16a97f24b287c8c2594dda5fb98c9e6c70fc61d44191931ea2aa08dc90"));
 
-        vSeeds.push_back(CDNSSeedData("n.piecoin.tech", "n.piecoin.tech"));
-        vSeeds.push_back(CDNSSeedData("52.41.171.101", "52.41.171.101"));
-        vSeeds.push_back(CDNSSeedData("52.34.224.106", "52.34.224.106"));
+        vSeeds.push_back(CDNSSeedData("195.74.52.227", "195.74.52.227"));
+        vSeeds.push_back(CDNSSeedData("107.170.196.135", "107.170.196.135"));
+        vSeeds.push_back(CDNSSeedData("149.56.154.75", "149.56.154.75"));
+        vSeeds.push_back(CDNSSeedData("82.165.162.27", "82.165.162.27"));
+        vSeeds.push_back(CDNSSeedData("81.89.100.38", "81.89.100.38"));
+        vSeeds.push_back(CDNSSeedData("149.56.154.75", "149.56.154.75"));
+        vSeeds.push_back(CDNSSeedData("62.138.3.214", "62.138.3.214"));
 
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,55);
